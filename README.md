@@ -39,3 +39,28 @@ CUDA, Histogram, GPU Statistics, Image Analysis, C++, OpenCV
 ## Author
 
 Harry12345123
+
+## Requirements
+
+Before building this project, make sure your system has:
+
+- CUDA Toolkit
+- OpenCV
+- CMake 3.18 or later
+- C++17 compatible compiler
+
+## Build
+
+Use the following commands to compile the project:
+
+```bash
+mkdir build
+cd build
+cmake ..
+make -j
+
+Run
+
+After building, run the program with:
+
+./cuda_image_histogram input.jpg
